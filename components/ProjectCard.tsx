@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 
 const ProjectCard: FunctionComponent<{
   project: IProject;
-  showDetail: null | Number;
-  setShowDetail: (id: Number | null) => void;
+  showDetail: null | number;
+  setShowDetail: (id: number | null) => void;
 }> = ({
   project: {
     name,
